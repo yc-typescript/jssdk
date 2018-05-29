@@ -31,7 +31,7 @@ import { IWechatAPI } from './WechatAPI';
 
 declare const window: any;
 
-const JSSKD_URL = 'http://res.wx.qq.com/open/js/jweixin-1.2.0.js';
+const JSSKD_URL = 'http://res.wx.qq.com/open/js/jweixin-1.3.0.js';
 
 export class Wechat implements IWechat {
   private _ready: Promise<any>;
