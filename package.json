@@ -1,0 +1,68 @@
+{
+  "name": "@yct/jssdk",
+  "version": "1.0.0",
+  "description": "jssdk",
+  "license": "MIT",
+  "author": {
+    "name": "Yu Chen",
+    "email": "yu.chen@live.ie"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yc-typescript/jssdk.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "clean": "rimraf lib && rimraf coverage",
+    "format": "prettier --write \"{src,__tests__}/**/*.ts\" --single-quote --trailing-comma es5",
+    "lint": "tslint --force --format verbose \"src/**/*.ts\"",
+    "prepublishOnly": "npm run build",
+    "prebuild": "npm run clean && npm run format && npm run lint && echo Using TypeScript && tsc --version",
+    "build": "tsc --pretty",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "watch": "npm run build -- --watch",
+    "watch:test": "jest --watch",
+    "docs": "typedoc ./src --mdEngine gitbook --theme markdown --out ./docs --excludeExternals"
+  },
+  "dependencies": {
+    "@yct/utils": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.0.1",
+    "@types/node": "^8.0.0",
+    "coveralls": "^2.0.0",
+    "jest": "^22.0.4",
+    "prettier": "^1.5.2",
+    "rimraf": "^2.0.0",
+    "ts-jest": "^22.0.1",
+    "ts-node": "^3.2.0",
+    "tslint": "^5.0.0",
+    "tslint-config-prettier": "^1.1.0",
+    "typedoc": "^0.11.1",
+    "typedoc-plugin-markdown": "^1.1.12",
+    "typescript": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "jest": {
+    "transform": {
+      ".(ts)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testEnvironment": "jsdom",
+    "mapCoverage": true
+  }
+}
