@@ -13,7 +13,7 @@
 **● dataUrl**: * `undefined` &#124; `string`
 *
 
-*Defined in IWechat.ts:501*
+*Defined in [IWechat.ts:501](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L501)*
 
 如果type是music或video，则要提供数据链接，默认为空
 
@@ -24,7 +24,7 @@ ___
 
 **● desc**: *`string`*
 
-*Defined in IWechat.ts:481*
+*Defined in [IWechat.ts:481](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L481)*
 
 分享描述
 
@@ -35,7 +35,7 @@ ___
 
 **● imgUrl**: *`string`*
 
-*Defined in IWechat.ts:491*
+*Defined in [IWechat.ts:491](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L491)*
 
 分享图标
 
@@ -46,7 +46,7 @@ ___
 
 **● link**: *`string`*
 
-*Defined in IWechat.ts:486*
+*Defined in [IWechat.ts:486](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L486)*
 
 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
 
@@ -57,7 +57,7 @@ ___
 
 **● title**: *`string`*
 
-*Defined in IWechat.ts:476*
+*Defined in [IWechat.ts:476](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L476)*
 
 分享标题
 
@@ -69,7 +69,7 @@ ___
 **● type**: * "music" &#124; "video" &#124; "link"
 *
 
-*Defined in IWechat.ts:496*
+*Defined in [IWechat.ts:496](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L496)*
 
 分享类型;music、video或link，不填默认为link
 

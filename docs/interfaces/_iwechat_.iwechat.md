@@ -16,7 +16,7 @@
 
 ▸ **addCard**(data: *[IAddCardParams](_iwechat_.iaddcardparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:195*
+*Defined in [IWechat.ts:195](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L195)*
 
 批量添加卡券接口
 
@@ -35,7 +35,7 @@ ___
 
 ▸ **checkJsApi**(...jsApiList: *`string`[]*): `Promise`<`any`>
 
-*Defined in IWechat.ts:23*
+*Defined in [IWechat.ts:23](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L23)*
 
 判断当前客户端版本是否支持指定JS接口 checkJsApi接口是客户端6.0.2新引入的一个预留接口，第一期开放的接口均可不使用checkJsApi来检测。
 
@@ -54,7 +54,7 @@ ___
 
 ▸ **chooseCard**(data: *[IChooseCardParams](_iwechat_.ichoosecardparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:201*
+*Defined in [IWechat.ts:201](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L201)*
 
 拉取适用卡券列表并获取用户选择信息
 
@@ -73,7 +73,7 @@ ___
 
 ▸ **chooseImage**(data: *[IChooseImageParams](_iwechat_.ichooseimageparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:59*
+*Defined in [IWechat.ts:59](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L59)*
 
 拍照或从手机相册中选图接口
 
@@ -92,7 +92,7 @@ ___
 
 ▸ **chooseWXPay**(data: *[IChooseWXPayParams](_iwechat_.ichoosewxpayparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:16*
+*Defined in [IWechat.ts:16](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L16)*
 
 发起一个微信支付请求
 
@@ -111,7 +111,7 @@ ___
 
 ▸ **closeWindow**(): `void`
 
-*Defined in IWechat.ts:177*
+*Defined in [IWechat.ts:177](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L177)*
 
 关闭当前网页窗口接口
 
@@ -124,7 +124,7 @@ ___
 
 ▸ **config**(ticket: *`string`*, ...jsApiList: *[IWechatAPI](../modules/_wechatapi_.md#iwechatapi)[]*): `Promise`<`void`>
 
-*Defined in IWechat.ts:10*
+*Defined in [IWechat.ts:10](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L10)*
 
 通过config接口注入权限验证配置 所有需要使用JS-SDK的页面必须先注入配置信息，否则将无法调用（同一个url仅需调用一次，对于变化url的SPA的web app可在每次url变化时进行调用,目前Android微信客户端不支持pushState的H5新特性，所以使用pushState来实现web app的页面会导致签名失败，此问题会在Android6.2中修复）
 
@@ -144,7 +144,7 @@ ___
 
 ▸ **downloadImage**(data: *[IDownloadImageParams](_iwechat_.idownloadimageparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:77*
+*Defined in [IWechat.ts:77](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L77)*
 
 下载图片接口
 
@@ -163,7 +163,7 @@ ___
 
 ▸ **downloadVoice**(data: *[IDownloadVoiceParams](_iwechat_.idownloadvoiceparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:127*
+*Defined in [IWechat.ts:127](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L127)*
 
 下载语音接口
 
@@ -182,7 +182,7 @@ ___
 
 ▸ **getLocation**(data: *[IGetLocationParams](_iwechat_.igetlocationparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:150*
+*Defined in [IWechat.ts:150](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L150)*
 
 获取地理位置接口
 
@@ -201,7 +201,7 @@ ___
 
 ▸ **getNetworkType**(): `Promise`<`any`>
 
-*Defined in IWechat.ts:138*
+*Defined in [IWechat.ts:138](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L138)*
 
 获取网络状态接口
 
@@ -214,7 +214,7 @@ ___
 
 ▸ **hideAllNonBaseMenuItem**(): `void`
 
-*Defined in IWechat.ts:167*
+*Defined in [IWechat.ts:167](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L167)*
 
 隐藏所有非基础按钮接口
 
@@ -227,7 +227,7 @@ ___
 
 ▸ **hideMenuItems**(data: *[IHideMenuItemsParams](_iwechat_.ihidemenuitemsparams.md)*): `void`
 
-*Defined in IWechat.ts:156*
+*Defined in [IWechat.ts:156](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L156)*
 
 批量隐藏功能按钮接口
 
@@ -246,7 +246,7 @@ ___
 
 ▸ **onMenuShareAppMessage**(data: *[IOnMenuShareAppMessageParams](_iwechat_.ionmenushareappmessageparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:35*
+*Defined in [IWechat.ts:35](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L35)*
 
 获取“分享给朋友”按钮点击状态及自定义分享内容接口
 
@@ -265,7 +265,7 @@ ___
 
 ▸ **onMenuShareQQ**(data: *[IOnMenuShareQQParams](_iwechat_.ionmenushareqqparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:41*
+*Defined in [IWechat.ts:41](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L41)*
 
 获取“分享到QQ”按钮点击状态及自定义分享内容接口
 
@@ -284,7 +284,7 @@ ___
 
 ▸ **onMenuShareQZone**(data: *[IOnMenuShareQZoneParams](_iwechat_.ionmenushareqzoneparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:53*
+*Defined in [IWechat.ts:53](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L53)*
 
 获取“分享到QQ空间”按钮点击状态及自定义分享内容接口
 
@@ -303,7 +303,7 @@ ___
 
 ▸ **onMenuShareTimeline**(data: *[IOnMenuShareTimelineParams](_iwechat_.ionmenusharetimelineparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:29*
+*Defined in [IWechat.ts:29](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L29)*
 
 获取“分享到朋友圈”按钮点击状态及自定义分享内容接口
 
@@ -322,7 +322,7 @@ ___
 
 ▸ **onMenuShareWeibo**(data: *[IOnMenuShareWeiboParams](_iwechat_.ionmenushareweiboparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:47*
+*Defined in [IWechat.ts:47](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L47)*
 
 获取“分享到腾讯微博”按钮点击状态及自定义分享内容接口
 
@@ -341,7 +341,7 @@ ___
 
 ▸ **onVoicePlayEnd**(): `Promise`<`any`>
 
-*Defined in IWechat.ts:115*
+*Defined in [IWechat.ts:115](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L115)*
 
 监听语音播放完毕接口
 
@@ -354,7 +354,7 @@ ___
 
 ▸ **onVoiceRecordEnd**(): `Promise`<`any`>
 
-*Defined in IWechat.ts:92*
+*Defined in [IWechat.ts:92](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L92)*
 
 监听录音自动停止接口
 
@@ -367,7 +367,7 @@ ___
 
 ▸ **openCard**(data: *[IOpenCardParams](_iwechat_.iopencardparams.md)*): `void`
 
-*Defined in IWechat.ts:207*
+*Defined in [IWechat.ts:207](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L207)*
 
 查看微信卡包中的卡券接口
 
@@ -386,7 +386,7 @@ ___
 
 ▸ **openLocation**(data: *[IOpenLocationParams](_iwechat_.iopenlocationparams.md)*): `void`
 
-*Defined in IWechat.ts:144*
+*Defined in [IWechat.ts:144](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L144)*
 
 使用微信内置地图查看位置接口
 
@@ -405,7 +405,7 @@ ___
 
 ▸ **openProductSpecificView**(data: *[IOpenProductionSpecifiViewParams](_iwechat_.iopenproductionspecifiviewparams.md)*): `void`
 
-*Defined in IWechat.ts:189*
+*Defined in [IWechat.ts:189](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L189)*
 
 跳转微信商品页接口
 
@@ -424,7 +424,7 @@ ___
 
 ▸ **pauseVoice**(data: *[IPauseVoiceParams](_iwechat_.ipausevoiceparams.md)*): `void`
 
-*Defined in IWechat.ts:104*
+*Defined in [IWechat.ts:104](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L104)*
 
 暂停播放接口
 
@@ -443,7 +443,7 @@ ___
 
 ▸ **playVoice**(data: *[IPlayVoiceParams](_iwechat_.iplayvoiceparams.md)*): `void`
 
-*Defined in IWechat.ts:98*
+*Defined in [IWechat.ts:98](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L98)*
 
 播放语音接口
 
@@ -462,7 +462,7 @@ ___
 
 ▸ **previewImage**(data: *[IPreviewImageParams](_iwechat_.ipreviewimageparams.md)*): `void`
 
-*Defined in IWechat.ts:65*
+*Defined in [IWechat.ts:65](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L65)*
 
 预览图片接口
 
@@ -481,7 +481,7 @@ ___
 
 ▸ **scanQRCode**(data: *[IScanQRCodeParams](_iwechat_.iscanqrcodeparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:183*
+*Defined in [IWechat.ts:183](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L183)*
 
 调起微信扫一扫接口
 
@@ -500,7 +500,7 @@ ___
 
 ▸ **showAllNonBaseMenuItem**(): `void`
 
-*Defined in IWechat.ts:172*
+*Defined in [IWechat.ts:172](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L172)*
 
 显示所有功能按钮接口
 
@@ -513,7 +513,7 @@ ___
 
 ▸ **showMenuItems**(data: *[IShowMenuItemsParams](_iwechat_.ishowmenuitemsparams.md)*): `void`
 
-*Defined in IWechat.ts:162*
+*Defined in [IWechat.ts:162](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L162)*
 
 批量显示功能按钮接口
 
@@ -532,7 +532,7 @@ ___
 
 ▸ **startRecord**(): `void`
 
-*Defined in IWechat.ts:82*
+*Defined in [IWechat.ts:82](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L82)*
 
 开始录音接口
 
@@ -545,7 +545,7 @@ ___
 
 ▸ **stopRecord**(): `Promise`<`any`>
 
-*Defined in IWechat.ts:87*
+*Defined in [IWechat.ts:87](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L87)*
 
 停止录音接口
 
@@ -558,7 +558,7 @@ ___
 
 ▸ **stopVoice**(data: *[IStopVoiceParams](_iwechat_.istopvoiceparams.md)*): `void`
 
-*Defined in IWechat.ts:110*
+*Defined in [IWechat.ts:110](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L110)*
 
 停止播放接口
 
@@ -577,7 +577,7 @@ ___
 
 ▸ **translateVoice**(data: *[ITranslateVoiceParams](_iwechat_.itranslatevoiceparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:133*
+*Defined in [IWechat.ts:133](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L133)*
 
 识别音频并返回识别结果接口
 
@@ -596,7 +596,7 @@ ___
 
 ▸ **uploadImage**(data: *[IUploadImageParams](_iwechat_.iuploadimageparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:71*
+*Defined in [IWechat.ts:71](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L71)*
 
 上传图片接口，上传图片有效期3天，可用微信多媒体接口下载图片到自己的服务器，此处获得的 serverId 即 media_id。
 
@@ -615,7 +615,7 @@ ___
 
 ▸ **uploadVoice**(data: *[IUploadVoiceParams](_iwechat_.iuploadvoiceparams.md)*): `Promise`<`any`>
 
-*Defined in IWechat.ts:121*
+*Defined in [IWechat.ts:121](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L121)*
 
 上传语音接口;上传语音有效期3天，可用微信多媒体接口下载语音到自己的服务器，此处获得的 serverId 即 media_id
 

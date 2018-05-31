@@ -8,7 +8,7 @@
 
 **ΤIWechatAPI**: *`string`*
 
-*Defined in WechatAPI.ts:1*
+*Defined in [WechatAPI.ts:1](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L1)*
 
 ___
 
@@ -20,7 +20,7 @@ ___
 
 **WechatAPI**: *`object`*
 
-*Defined in WechatAPI.ts:3*
+*Defined in [WechatAPI.ts:3](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L3)*
 
 <a id="wechatapi.addcard"></a>
 
@@ -28,7 +28,7 @@ ___
 
 **● addCard**: *`string`* = "addCard"
 
-*Defined in WechatAPI.ts:167*
+*Defined in [WechatAPI.ts:167](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L167)*
 
 批量添加卡券接口
 
@@ -39,7 +39,7 @@ ___
 
 **● chooseCard**: *`string`* = "chooseCard"
 
-*Defined in WechatAPI.ts:172*
+*Defined in [WechatAPI.ts:172](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L172)*
 
 拉取适用卡券列表并获取用户选择信息
 
@@ -50,7 +50,7 @@ ___
 
 **● chooseImage**: *`string`* = "chooseImage"
 
-*Defined in WechatAPI.ts:77*
+*Defined in [WechatAPI.ts:77](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L77)*
 
 拍照或从手机相册中选图接口
 
@@ -61,7 +61,7 @@ ___
 
 **● chooseWXPay**: *`string`* = "chooseWXPay"
 
-*Defined in WechatAPI.ts:157*
+*Defined in [WechatAPI.ts:157](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L157)*
 
 发起一个微信支付请求
 
@@ -72,7 +72,7 @@ ___
 
 **● closeWindow**: *`string`* = "closeWindow"
 
-*Defined in WechatAPI.ts:147*
+*Defined in [WechatAPI.ts:147](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L147)*
 
 关闭当前网页窗口接口
 
@@ -83,7 +83,7 @@ ___
 
 **● downloadImage**: *`string`* = "downloadImage"
 
-*Defined in WechatAPI.ts:92*
+*Defined in [WechatAPI.ts:92](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L92)*
 
 下载图片接口
 
@@ -94,7 +94,7 @@ ___
 
 **● downloadVoice**: *`string`* = "downloadVoice"
 
-*Defined in WechatAPI.ts:72*
+*Defined in [WechatAPI.ts:72](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L72)*
 
 下载语音接口
 
@@ -105,7 +105,7 @@ ___
 
 **● getLocation**: *`string`* = "getLocation"
 
-*Defined in WechatAPI.ts:112*
+*Defined in [WechatAPI.ts:112](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L112)*
 
 获取地理位置接口
 
@@ -116,7 +116,7 @@ ___
 
 **● getNetworkType**: *`string`* = "getNetworkType"
 
-*Defined in WechatAPI.ts:102*
+*Defined in [WechatAPI.ts:102](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L102)*
 
 获取网络状态接口
 
@@ -127,7 +127,7 @@ ___
 
 **● hideAllNonBaseMenuItem**: *`string`* = "hideAllNonBaseMenuItem"
 
-*Defined in WechatAPI.ts:137*
+*Defined in [WechatAPI.ts:137](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L137)*
 
 隐藏所有非基础按钮接口
 
@@ -138,7 +138,7 @@ ___
 
 **● hideMenuItems**: *`string`* = "hideMenuItems"
 
-*Defined in WechatAPI.ts:127*
+*Defined in [WechatAPI.ts:127](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L127)*
 
 批量隐藏功能按钮接口
 
@@ -149,7 +149,7 @@ ___
 
 **● hideOptionMenu**: *`string`* = "hideOptionMenu"
 
-*Defined in WechatAPI.ts:117*
+*Defined in [WechatAPI.ts:117](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L117)*
 
 不清楚做wftc
 
@@ -160,7 +160,7 @@ ___
 
 **● onMenuShareAppMessage**: *`string`* = "onMenuShareAppMessage"
 
-*Defined in WechatAPI.ts:12*
+*Defined in [WechatAPI.ts:12](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L12)*
 
 分享给朋友
 
@@ -171,7 +171,7 @@ ___
 
 **● onMenuShareQQ**: *`string`* = "onMenuShareQQ"
 
-*Defined in WechatAPI.ts:17*
+*Defined in [WechatAPI.ts:17](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L17)*
 
 分享到QQ
 
@@ -182,7 +182,7 @@ ___
 
 **● onMenuShareQZone**: *`string`* = "onMenuShareQZone"
 
-*Defined in WechatAPI.ts:27*
+*Defined in [WechatAPI.ts:27](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L27)*
 
 分享到QQ空间
 
@@ -193,7 +193,7 @@ ___
 
 **● onMenuShareTimeline**: *`string`* = "onMenuShareTimeline"
 
-*Defined in WechatAPI.ts:7*
+*Defined in [WechatAPI.ts:7](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L7)*
 
 分享到朋友圈
 
@@ -204,7 +204,7 @@ ___
 
 **● onMenuShareWeibo**: *`string`* = "onMenuShareWeibo"
 
-*Defined in WechatAPI.ts:22*
+*Defined in [WechatAPI.ts:22](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L22)*
 
 分享到腾讯微博
 
@@ -215,7 +215,7 @@ ___
 
 **● onVoicePlayEnd**: *`string`* = "onVoicePlayEnd"
 
-*Defined in WechatAPI.ts:62*
+*Defined in [WechatAPI.ts:62](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L62)*
 
 监听语音播放完毕接口
 
@@ -226,7 +226,7 @@ ___
 
 **● onVoiceRecordEnd**: *`string`* = "onVoiceRecordEnd"
 
-*Defined in WechatAPI.ts:42*
+*Defined in [WechatAPI.ts:42](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L42)*
 
 监听录音自动停止接口
 
@@ -237,7 +237,7 @@ ___
 
 **● openCard**: *`string`* = "openCard"
 
-*Defined in WechatAPI.ts:177*
+*Defined in [WechatAPI.ts:177](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L177)*
 
 查看微信卡包中的卡券接口
 
@@ -248,7 +248,7 @@ ___
 
 **● openLocation**: *`string`* = "openLocation"
 
-*Defined in WechatAPI.ts:107*
+*Defined in [WechatAPI.ts:107](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L107)*
 
 使用微信内置地图查看位置接口
 
@@ -259,7 +259,7 @@ ___
 
 **● openProductSpecificView**: *`string`* = "openProductSpecificView"
 
-*Defined in WechatAPI.ts:162*
+*Defined in [WechatAPI.ts:162](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L162)*
 
 跳转微信商品页接口
 
@@ -270,7 +270,7 @@ ___
 
 **● pauseVoice**: *`string`* = "pauseVoice"
 
-*Defined in WechatAPI.ts:52*
+*Defined in [WechatAPI.ts:52](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L52)*
 
 暂停播放接口
 
@@ -281,7 +281,7 @@ ___
 
 **● playVoice**: *`string`* = "playVoice"
 
-*Defined in WechatAPI.ts:47*
+*Defined in [WechatAPI.ts:47](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L47)*
 
 播放语音接口
 
@@ -292,7 +292,7 @@ ___
 
 **● previewImage**: *`string`* = "previewImage"
 
-*Defined in WechatAPI.ts:82*
+*Defined in [WechatAPI.ts:82](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L82)*
 
 预览图片接口
 
@@ -303,7 +303,7 @@ ___
 
 **● scanQRCode**: *`string`* = "scanQRCode"
 
-*Defined in WechatAPI.ts:152*
+*Defined in [WechatAPI.ts:152](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L152)*
 
 调起微信扫一扫接口
 
@@ -314,7 +314,7 @@ ___
 
 **● showAllNonBaseMenuItem**: *`string`* = "showAllNonBaseMenuItem"
 
-*Defined in WechatAPI.ts:142*
+*Defined in [WechatAPI.ts:142](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L142)*
 
 显示所有功能按钮接口
 
@@ -325,7 +325,7 @@ ___
 
 **● showMenuItems**: *`string`* = "showMenuItems"
 
-*Defined in WechatAPI.ts:132*
+*Defined in [WechatAPI.ts:132](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L132)*
 
 批量显示功能按钮接口
 
@@ -336,7 +336,7 @@ ___
 
 **● showOptionMenu**: *`string`* = "showOptionMenu"
 
-*Defined in WechatAPI.ts:122*
+*Defined in [WechatAPI.ts:122](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L122)*
 
 不清楚做wftc
 
@@ -347,7 +347,7 @@ ___
 
 **● startRecord**: *`string`* = "startRecord"
 
-*Defined in WechatAPI.ts:32*
+*Defined in [WechatAPI.ts:32](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L32)*
 
 开始录音接口
 
@@ -358,7 +358,7 @@ ___
 
 **● stopRecord**: *`string`* = "stopRecord"
 
-*Defined in WechatAPI.ts:37*
+*Defined in [WechatAPI.ts:37](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L37)*
 
 停止录音接口
 
@@ -369,7 +369,7 @@ ___
 
 **● stopVoice**: *`string`* = "stopVoice"
 
-*Defined in WechatAPI.ts:57*
+*Defined in [WechatAPI.ts:57](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L57)*
 
 停止播放接口
 
@@ -380,7 +380,7 @@ ___
 
 **● translateVoice**: *`string`* = "translateVoice"
 
-*Defined in WechatAPI.ts:97*
+*Defined in [WechatAPI.ts:97](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L97)*
 
 识别音频并返回识别结果接口
 
@@ -391,7 +391,7 @@ ___
 
 **● uploadImage**: *`string`* = "uploadImage"
 
-*Defined in WechatAPI.ts:87*
+*Defined in [WechatAPI.ts:87](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L87)*
 
 上传图片接口
 
@@ -402,7 +402,7 @@ ___
 
 **● uploadVoice**: *`string`* = "uploadVoice"
 
-*Defined in WechatAPI.ts:67*
+*Defined in [WechatAPI.ts:67](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/WechatAPI.ts#L67)*
 
 上传语音接口
 

@@ -14,9 +14,9 @@
 
 ##  constructor
 
-⊕ **new Wechat**(appId: *`string`*, debug?: *`boolean`*): [Wechat](_wechat_.wechat.md)
+⊕ **new Wechat**(appId: *`string`*, debug?: *`boolean`*, https?: *`boolean`*): [Wechat](_wechat_.wechat.md)
 
-*Defined in Wechat.ts:37*
+*Defined in [Wechat.ts:37](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L37)*
 
 **Parameters:**
 
@@ -24,6 +24,7 @@
 | ------ | ------ | ------ |
 | appId | `string` | - |
 | `Default value` debug | `boolean` | false |
+| `Default value` https | `boolean` | true |
 
 **Returns:** [Wechat](_wechat_.wechat.md)
 
@@ -37,7 +38,7 @@ ___
 
 **● _ready**: *`Promise`<`any`>*
 
-*Defined in Wechat.ts:37*
+*Defined in [Wechat.ts:37](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L37)*
 
 ___
 <a id="appid"></a>
@@ -46,7 +47,7 @@ ___
 
 **● appId**: *`string`*
 
-*Defined in Wechat.ts:39*
+*Defined in [Wechat.ts:39](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L39)*
 
 ___
 <a id="debug"></a>
@@ -55,7 +56,16 @@ ___
 
 **● debug**: *`boolean`*
 
-*Defined in Wechat.ts:39*
+*Defined in [Wechat.ts:39](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L39)*
+
+___
+<a id="https"></a>
+
+##  https
+
+**● https**: *`boolean`*
+
+*Defined in [Wechat.ts:39](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L39)*
 
 ___
 
@@ -69,7 +79,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[addCard](../interfaces/_iwechat_.iwechat.md#addcard)*
 
-*Defined in Wechat.ts:346*
+*Defined in [Wechat.ts:347](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L347)*
 
 批量添加卡券接口
 
@@ -90,7 +100,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[checkJsApi](../interfaces/_iwechat_.iwechat.md#checkjsapi)*
 
-*Defined in Wechat.ts:112*
+*Defined in [Wechat.ts:113](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L113)*
 
 判断当前客户端版本是否支持指定JS接口 checkJsApi接口是客户端6.0.2新引入的一个预留接口，第一期开放的接口均可不使用checkJsApi来检测。
 
@@ -111,7 +121,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[chooseCard](../interfaces/_iwechat_.iwechat.md#choosecard)*
 
-*Defined in Wechat.ts:354*
+*Defined in [Wechat.ts:355](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L355)*
 
 拉取适用卡券列表并获取用户选择信息
 
@@ -132,7 +142,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[chooseImage](../interfaces/_iwechat_.iwechat.md#chooseimage)*
 
-*Defined in Wechat.ts:162*
+*Defined in [Wechat.ts:163](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L163)*
 
 拍照或从手机相册中选图接口
 
@@ -153,7 +163,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[chooseWXPay](../interfaces/_iwechat_.iwechat.md#choosewxpay)*
 
-*Defined in Wechat.ts:370*
+*Defined in [Wechat.ts:371](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L371)*
 
 发起一个微信支付请求
 
@@ -174,7 +184,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[closeWindow](../interfaces/_iwechat_.iwechat.md#closewindow)*
 
-*Defined in Wechat.ts:322*
+*Defined in [Wechat.ts:323](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L323)*
 
 关闭当前网页窗口接口
 
@@ -189,7 +199,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[config](../interfaces/_iwechat_.iwechat.md#config)*
 
-*Defined in Wechat.ts:56*
+*Defined in [Wechat.ts:57](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L57)*
 
 通过config接口注入权限验证配置 所有需要使用JS-SDK的页面必须先注入配置信息，否则将无法调用（同一个url仅需调用一次，对于变化url的SPA的web app可在每次url变化时进行调用,目前Android微信客户端不支持pushState的H5新特性，所以使用pushState来实现web app的页面会导致签名失败，此问题会在Android6.2中修复）
 
@@ -211,7 +221,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[downloadImage](../interfaces/_iwechat_.iwechat.md#downloadimage)*
 
-*Defined in Wechat.ts:186*
+*Defined in [Wechat.ts:187](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L187)*
 
 下载图片接口
 
@@ -232,7 +242,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[downloadVoice](../interfaces/_iwechat_.iwechat.md#downloadvoice)*
 
-*Defined in Wechat.ts:254*
+*Defined in [Wechat.ts:255](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L255)*
 
 下载语音接口
 
@@ -253,7 +263,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[getLocation](../interfaces/_iwechat_.iwechat.md#getlocation)*
 
-*Defined in Wechat.ts:285*
+*Defined in [Wechat.ts:286](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L286)*
 
 获取地理位置接口
 
@@ -274,7 +284,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[getNetworkType](../interfaces/_iwechat_.iwechat.md#getnetworktype)*
 
-*Defined in Wechat.ts:269*
+*Defined in [Wechat.ts:270](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L270)*
 
 获取网络状态接口
 
@@ -289,7 +299,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[hideAllNonBaseMenuItem](../interfaces/_iwechat_.iwechat.md#hideallnonbasemenuitem)*
 
-*Defined in Wechat.ts:308*
+*Defined in [Wechat.ts:309](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L309)*
 
 隐藏所有非基础按钮接口
 
@@ -304,7 +314,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[hideMenuItems](../interfaces/_iwechat_.iwechat.md#hidemenuitems)*
 
-*Defined in Wechat.ts:293*
+*Defined in [Wechat.ts:294](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L294)*
 
 批量隐藏功能按钮接口
 
@@ -325,7 +335,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[onMenuShareAppMessage](../interfaces/_iwechat_.iwechat.md#onmenushareappmessage)*
 
-*Defined in Wechat.ts:128*
+*Defined in [Wechat.ts:129](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L129)*
 
 获取“分享给朋友”按钮点击状态及自定义分享内容接口
 
@@ -346,7 +356,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[onMenuShareQQ](../interfaces/_iwechat_.iwechat.md#onmenushareqq)*
 
-*Defined in Wechat.ts:138*
+*Defined in [Wechat.ts:139](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L139)*
 
 获取“分享到QQ”按钮点击状态及自定义分享内容接口
 
@@ -367,7 +377,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[onMenuShareQZone](../interfaces/_iwechat_.iwechat.md#onmenushareqzone)*
 
-*Defined in Wechat.ts:154*
+*Defined in [Wechat.ts:155](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L155)*
 
 获取“分享到QQ空间”按钮点击状态及自定义分享内容接口
 
@@ -388,7 +398,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[onMenuShareTimeline](../interfaces/_iwechat_.iwechat.md#onmenusharetimeline)*
 
-*Defined in Wechat.ts:120*
+*Defined in [Wechat.ts:121](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L121)*
 
 获取“分享到朋友圈”按钮点击状态及自定义分享内容接口
 
@@ -409,7 +419,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[onMenuShareWeibo](../interfaces/_iwechat_.iwechat.md#onmenushareweibo)*
 
-*Defined in Wechat.ts:146*
+*Defined in [Wechat.ts:147](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L147)*
 
 获取“分享到腾讯微博”按钮点击状态及自定义分享内容接口
 
@@ -430,7 +440,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[onVoicePlayEnd](../interfaces/_iwechat_.iwechat.md#onvoiceplayend)*
 
-*Defined in Wechat.ts:238*
+*Defined in [Wechat.ts:239](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L239)*
 
 监听语音播放完毕接口
 
@@ -445,7 +455,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[onVoiceRecordEnd](../interfaces/_iwechat_.iwechat.md#onvoicerecordend)*
 
-*Defined in Wechat.ts:207*
+*Defined in [Wechat.ts:208](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L208)*
 
 监听录音自动停止接口
 
@@ -460,7 +470,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[openCard](../interfaces/_iwechat_.iwechat.md#opencard)*
 
-*Defined in Wechat.ts:362*
+*Defined in [Wechat.ts:363](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L363)*
 
 查看微信卡包中的卡券接口
 
@@ -481,7 +491,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[openLocation](../interfaces/_iwechat_.iwechat.md#openlocation)*
 
-*Defined in Wechat.ts:277*
+*Defined in [Wechat.ts:278](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L278)*
 
 使用微信内置地图查看位置接口
 
@@ -502,7 +512,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[openProductSpecificView](../interfaces/_iwechat_.iwechat.md#openproductspecificview)*
 
-*Defined in Wechat.ts:338*
+*Defined in [Wechat.ts:339](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L339)*
 
 跳转微信商品页接口
 
@@ -523,7 +533,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[pauseVoice](../interfaces/_iwechat_.iwechat.md#pausevoice)*
 
-*Defined in Wechat.ts:223*
+*Defined in [Wechat.ts:224](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L224)*
 
 暂停播放接口
 
@@ -544,7 +554,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[playVoice](../interfaces/_iwechat_.iwechat.md#playvoice)*
 
-*Defined in Wechat.ts:215*
+*Defined in [Wechat.ts:216](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L216)*
 
 播放语音接口
 
@@ -565,7 +575,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[previewImage](../interfaces/_iwechat_.iwechat.md#previewimage)*
 
-*Defined in Wechat.ts:170*
+*Defined in [Wechat.ts:171](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L171)*
 
 预览图片接口
 
@@ -584,7 +594,7 @@ ___
 
 ▸ **promisify**(api: *`string`*, data: *`any`*): `Promise`<`any`>
 
-*Defined in Wechat.ts:92*
+*Defined in [Wechat.ts:93](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L93)*
 
 **Parameters:**
 
@@ -602,7 +612,7 @@ ___
 
 ▸ **ready**(): `Promise`<`any`>
 
-*Defined in Wechat.ts:46*
+*Defined in [Wechat.ts:47](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L47)*
 
 判断 JSSKD 加载完成
 
@@ -617,7 +627,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[scanQRCode](../interfaces/_iwechat_.iwechat.md#scanqrcode)*
 
-*Defined in Wechat.ts:330*
+*Defined in [Wechat.ts:331](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L331)*
 
 调起微信扫一扫接口
 
@@ -638,7 +648,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[showAllNonBaseMenuItem](../interfaces/_iwechat_.iwechat.md#showallnonbasemenuitem)*
 
-*Defined in Wechat.ts:315*
+*Defined in [Wechat.ts:316](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L316)*
 
 显示所有功能按钮接口
 
@@ -653,7 +663,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[showMenuItems](../interfaces/_iwechat_.iwechat.md#showmenuitems)*
 
-*Defined in Wechat.ts:301*
+*Defined in [Wechat.ts:302](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L302)*
 
 批量显示功能按钮接口
 
@@ -674,7 +684,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[startRecord](../interfaces/_iwechat_.iwechat.md#startrecord)*
 
-*Defined in Wechat.ts:193*
+*Defined in [Wechat.ts:194](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L194)*
 
 开始录音接口
 
@@ -689,7 +699,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[stopRecord](../interfaces/_iwechat_.iwechat.md#stoprecord)*
 
-*Defined in Wechat.ts:200*
+*Defined in [Wechat.ts:201](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L201)*
 
 停止录音接口
 
@@ -704,7 +714,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[stopVoice](../interfaces/_iwechat_.iwechat.md#stopvoice)*
 
-*Defined in Wechat.ts:231*
+*Defined in [Wechat.ts:232](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L232)*
 
 停止播放接口
 
@@ -725,7 +735,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[translateVoice](../interfaces/_iwechat_.iwechat.md#translatevoice)*
 
-*Defined in Wechat.ts:262*
+*Defined in [Wechat.ts:263](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L263)*
 
 识别音频并返回识别结果接口
 
@@ -746,7 +756,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[uploadImage](../interfaces/_iwechat_.iwechat.md#uploadimage)*
 
-*Defined in Wechat.ts:178*
+*Defined in [Wechat.ts:179](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L179)*
 
 上传图片接口，上传图片有效期3天，可用微信多媒体接口下载图片到自己的服务器，此处获得的 serverId 即 media_id。
 
@@ -767,7 +777,7 @@ ___
 
 *Implementation of [IWechat](../interfaces/_iwechat_.iwechat.md).[uploadVoice](../interfaces/_iwechat_.iwechat.md#uploadvoice)*
 
-*Defined in Wechat.ts:246*
+*Defined in [Wechat.ts:247](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L247)*
 
 上传语音接口,上传语音有效期3天，可用微信多媒体接口下载语音到自己的服务器，此处获得的 serverId 即 media_id
 

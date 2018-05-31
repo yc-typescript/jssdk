@@ -20,9 +20,9 @@
 
 ## `<Const>` JSSKD_URL
 
-**● JSSKD_URL**: *"http://res.wx.qq.com/open/js/jweixin-1.2.0.js"* = "http://res.wx.qq.com/open/js/jweixin-1.2.0.js"
+**● JSSKD_URL**: *"res.wx.qq.com/open/js/jweixin-1.3.0.js"* = "res.wx.qq.com/open/js/jweixin-1.3.0.js"
 
-*Defined in Wechat.ts:34*
+*Defined in [Wechat.ts:34](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L34)*
 
 ___
 <a id="window"></a>
@@ -31,7 +31,7 @@ ___
 
 **● window**: *`any`*
 
-*Defined in Wechat.ts:32*
+*Defined in [Wechat.ts:32](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L32)*
 
 ___
 

@@ -31,13 +31,18 @@ import { IWechatAPI } from './WechatAPI';
 
 declare const window: any;
 
-const JSSKD_URL = 'http://res.wx.qq.com/open/js/jweixin-1.3.0.js';
+const JSSKD_URL = 'res.wx.qq.com/open/js/jweixin-1.3.0.js';
 
 export class Wechat implements IWechat {
   private _ready: Promise<any>;
 
-  constructor(public appId: string, public debug: boolean = false) {
-    this._ready = loadScript(JSSKD_URL);
+  constructor(
+    public appId: string,
+    public debug: boolean = false,
+    public https: boolean = true
+  ) {
+    const protocol = https ? 'https' : 'http';
+    this._ready = loadScript(protocol + '://' + JSSKD_URL);
   }
 
   /**
