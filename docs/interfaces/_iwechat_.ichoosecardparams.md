@@ -13,7 +13,7 @@
 **● cardId**: * `undefined` &#124; `string`
 *
 
-*Defined in IWechat.ts:224*
+*Defined in [IWechat.ts:224](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L224)*
 
 卡券ID，用于拉起指定cardId的卡券列表，当cardId为空时，默认拉起所有卡券的列表，非必填
 
@@ -24,7 +24,7 @@ ___
 
 **● cardSign**: *`string`*
 
-*Defined in IWechat.ts:244*
+*Defined in [IWechat.ts:244](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L244)*
 
 卡券签名
 
@@ -36,7 +36,7 @@ ___
 **● cardType**: * `undefined` &#124; `string`
 *
 
-*Defined in IWechat.ts:219*
+*Defined in [IWechat.ts:219](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L219)*
 
 卡券类型，用于拉起指定卡券类型的卡券列表。当cardType为空时，默认拉起所有卡券的列表，非必填。
 
@@ -47,7 +47,7 @@ ___
 
 **● nonceStr**: *`string`*
 
-*Defined in IWechat.ts:234*
+*Defined in [IWechat.ts:234](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L234)*
 
 卡券签名随机串
 
@@ -59,7 +59,7 @@ ___
 **● shopId**: * `undefined` &#124; `string`
 *
 
-*Defined in IWechat.ts:214*
+*Defined in [IWechat.ts:214](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L214)*
 
 门店Id
 
@@ -70,7 +70,7 @@ ___
 
 **● signType**: *`string`*
 
-*Defined in IWechat.ts:239*
+*Defined in [IWechat.ts:239](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L239)*
 
 签名方式，默认'SHA1',目前只支持'SHA1'
 
@@ -81,7 +81,7 @@ ___
 
 **● timestamp**: *`number`*
 
-*Defined in IWechat.ts:229*
+*Defined in [IWechat.ts:229](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L229)*
 
 卡券签名时间戳
 

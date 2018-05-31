@@ -12,7 +12,7 @@
 
 **● address**: *`string`*
 
-*Defined in IWechat.ts:349*
+*Defined in [IWechat.ts:349](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L349)*
 
 地址详情说明
 
@@ -23,7 +23,7 @@ ___
 
 **● infoUrl**: *`string`*
 
-*Defined in IWechat.ts:359*
+*Defined in [IWechat.ts:359](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L359)*
 
 在查看位置界面底部显示的超链接,可点击跳转
 
@@ -34,7 +34,7 @@ ___
 
 **● latitude**: *`number`*
 
-*Defined in IWechat.ts:334*
+*Defined in [IWechat.ts:334](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L334)*
 
 纬度，浮点数，范围为90 ~ -90
 
@@ -45,7 +45,7 @@ ___
 
 **● longitude**: *`number`*
 
-*Defined in IWechat.ts:339*
+*Defined in [IWechat.ts:339](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L339)*
 
 经度，浮点数，范围为180 ~ -180。
 
@@ -56,7 +56,7 @@ ___
 
 **● name**: *`string`*
 
-*Defined in IWechat.ts:344*
+*Defined in [IWechat.ts:344](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L344)*
 
 位置名
 
@@ -68,7 +68,7 @@ ___
 **● scale**: * `undefined` &#124; `number`
 *
 
-*Defined in IWechat.ts:354*
+*Defined in [IWechat.ts:354](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L354)*
 
 地图缩放级别,整形值,范围从1~28。默认为最大
 

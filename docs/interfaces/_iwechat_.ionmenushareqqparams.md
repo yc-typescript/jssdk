@@ -12,7 +12,7 @@
 
 **● desc**: *`string`*
 
-*Defined in IWechat.ts:530*
+*Defined in [IWechat.ts:530](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L530)*
 
 分享描述
 
@@ -23,7 +23,7 @@ ___
 
 **● imgUrl**: *`string`*
 
-*Defined in IWechat.ts:540*
+*Defined in [IWechat.ts:540](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L540)*
 
 分享图标
 
@@ -34,7 +34,7 @@ ___
 
 **● link**: *`string`*
 
-*Defined in IWechat.ts:535*
+*Defined in [IWechat.ts:535](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L535)*
 
 分享链接
 
@@ -45,7 +45,7 @@ ___
 
 **● title**: *`string`*
 
-*Defined in IWechat.ts:525*
+*Defined in [IWechat.ts:525](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/IWechat.ts#L525)*
 
 分享标题
 

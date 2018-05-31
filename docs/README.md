@@ -22,7 +22,7 @@ import { Wechat, WechatAPI } from '@yct/jssdk';
 
 (async () => {
   try {
-    const wechat = new Wechat('Your appId', true);
+    const wechat = new Wechat('Your appId', true, false);
     await wechat.ready();
     const ticket = 'get js ticket from server';
     await wechat.config(ticket, WechatAPI.getLocation, WechatAPI.getNetworkType);
