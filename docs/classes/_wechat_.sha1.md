@@ -12,7 +12,7 @@
 
 ⊕ **new Sha1**(str: *`string`*): [Sha1](_wechat_.sha1.md)
 
-*Defined in Wechat.ts:404*
+*Defined in [Wechat.ts:405](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L405)*
 
 Create a new sha1 algorithm
 
@@ -34,7 +34,7 @@ ___
 
 **● str**: *`string`*
 
-*Defined in Wechat.ts:404*
+*Defined in [Wechat.ts:405](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L405)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 ▸ **binb2hex**(binarray: *`any`*, hexcase: *`any`*): `string`
 
-*Defined in Wechat.ts:502*
+*Defined in [Wechat.ts:503](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L503)*
 
 **Parameters:**
 
@@ -64,7 +64,7 @@ ___
 
 ▸ **core_sha1**(x: *`any`*, len: *`any`*): `number`[]
 
-*Defined in Wechat.ts:434*
+*Defined in [Wechat.ts:435](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L435)*
 
 **Parameters:**
 
@@ -82,7 +82,7 @@ ___
 
 ▸ **rol**(num: *`any`*, cnt: *`any`*): `number`
 
-*Defined in Wechat.ts:498*
+*Defined in [Wechat.ts:499](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L499)*
 
 **Parameters:**
 
@@ -100,7 +100,7 @@ ___
 
 ▸ **safe_add**(x: *`any`*, y: *`any`*): `number`
 
-*Defined in Wechat.ts:492*
+*Defined in [Wechat.ts:493](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L493)*
 
 **Parameters:**
 
@@ -118,7 +118,7 @@ ___
 
 ▸ **sha1_ft**(t: *`any`*, b: *`any`*, c: *`any`*, d: *`any`*): `number`
 
-*Defined in Wechat.ts:475*
+*Defined in [Wechat.ts:476](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L476)*
 
 **Parameters:**
 
@@ -138,7 +138,7 @@ ___
 
 ▸ **sha1_kt**(t: *`any`*):  `1518500249` &#124; `1859775393` &#124; `-1894007588` &#124; `-899497514`
 
-*Defined in Wechat.ts:482*
+*Defined in [Wechat.ts:483](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L483)*
 
 **Parameters:**
 
@@ -155,7 +155,7 @@ ___
 
 ▸ **str2binb**(chrsz: *`any`*): `any`[]
 
-*Defined in Wechat.ts:426*
+*Defined in [Wechat.ts:427](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L427)*
 
 **Parameters:**
 
@@ -172,7 +172,7 @@ ___
 
 ▸ **toHex**(outputCase: *`number`*, encoding: *`number`*): `string`
 
-*Defined in Wechat.ts:419*
+*Defined in [Wechat.ts:420](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L420)*
 
 Generate hex result
 
@@ -195,7 +195,7 @@ ___
 
 **Case**: *`object`*
 
-*Defined in Wechat.ts:379*
+*Defined in [Wechat.ts:380](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L380)*
 
 hex output format. 0 - lowercase; 1 - uppercase
 
@@ -205,7 +205,7 @@ hex output format. 0 - lowercase; 1 - uppercase
 
 **● lower**: *`number`* = 0
 
-*Defined in Wechat.ts:383*
+*Defined in [Wechat.ts:384](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L384)*
 
 lowercase
 
@@ -216,7 +216,7 @@ ___
 
 **● upper**: *`number`* = 1
 
-*Defined in Wechat.ts:387*
+*Defined in [Wechat.ts:388](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L388)*
 
 uppercase
 
@@ -229,7 +229,7 @@ ___
 
 **Encoding**: *`object`*
 
-*Defined in Wechat.ts:393*
+*Defined in [Wechat.ts:394](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L394)*
 
 bits per input character. 8 - ASCII; 16 - Unicode
 
@@ -239,7 +239,7 @@ bits per input character. 8 - ASCII; 16 - Unicode
 
 **● ASCII**: *`number`* = 8
 
-*Defined in Wechat.ts:397*
+*Defined in [Wechat.ts:398](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L398)*
 
 ASCII
 
@@ -250,7 +250,7 @@ ___
 
 **● Unicode**: *`number`* = 16
 
-*Defined in Wechat.ts:401*
+*Defined in [Wechat.ts:402](https://github.com/yc-typescript/jssdk/blob/4422e9c/src/Wechat.ts#L402)*
 
 Unicode
 
